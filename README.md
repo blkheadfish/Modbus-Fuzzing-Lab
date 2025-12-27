@@ -1,4 +1,4 @@
-# 工业互联网安全第15组-大作业-基于模糊测试的Modbus-TCP协议健壮性检测系统
+# 基于模糊测试的Modbus-TCP协议健壮性检测系统
 
 ![img_1.png](img_1.png)
 技术架构:
@@ -73,3 +73,4 @@ pip install -r requirements.txt
 ```shell
 python fuzzing.py --mode length --ip 127.0.0.1 --port 5020 --sleep 2 
 ```
+
